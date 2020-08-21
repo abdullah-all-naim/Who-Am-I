@@ -1,0 +1,12 @@
+body{
+    background-color: lightgray;
+    font-weight: bold;
+}
+
+.user_photo img {
+    display: block;
+    width: 200px;
+    border-radius: 50%;
+    border: 9px solid rgba(94, 93, 93, 0.25);
+    margin: 0 auto 25px;
+}
