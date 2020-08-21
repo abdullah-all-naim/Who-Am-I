@@ -1,6 +1,21 @@
-body{
-    background-color: lightgray;
-    font-weight: bold;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("bg-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 776px;
 }
 
 .user_photo img {
